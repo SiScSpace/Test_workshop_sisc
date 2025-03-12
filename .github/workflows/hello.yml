@@ -1,11 +1,11 @@
-name: Hello World Training Workflow
+name: Hello World Training Workflow 2
 
 on:
   workflow_dispatch:
 
 jobs:
-  greet:
+  greet_main:
     runs-on: ubuntu-latest
     steps:
       - name: Greet the User
-        run: echo "Hello World! Hello again"
+        run: echo "Hello World! Hello from main"
