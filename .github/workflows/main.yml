@@ -1,0 +1,11 @@
+name: coming form main
+
+on:
+  workflow_dispatch:
+
+jobs:
+  greet_main:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Greet the User
+        run: echo "Hello World! Hello from main"
